@@ -14,4 +14,10 @@ In this repo you will come to know how to install SSL certificates in your local
 ```bash <(curl -s https://raw.githubusercontent.com/CODERDIAMOND-ui/Code/refs/heads/main/BluePrint)```
 
 # Playit installer
-```bash <(curl -s https://github.com/CODERDIAMOND-ui/Code/blob/main/PlayIt.sh)```
+```bash <(curl -s https://raw.githubusercontent.com/CODERDIAMOND-ui/Code/refs/heads/main/PlayIt.sh)```
+
+# Pterodactyl installer
+```https://raw.githubusercontent.com/CODERDIAMOND-ui/Code/refs/heads/main/Pterodactyl)```
+
+# Vm-Manager
+```https://raw.githubusercontent.com/CODERDIAMOND-ui/Code/refs/heads/main/vm.sh)```
