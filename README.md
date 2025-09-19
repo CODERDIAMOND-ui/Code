@@ -12,3 +12,6 @@ In this repo you will come to know how to install SSL certificates in your local
 
 # Blueprint installer
 ```bash <(curl -s https://raw.githubusercontent.com/CODERDIAMOND-ui/Code/refs/heads/main/BluePrint)```
+
+# Playit installer
+```bash <(curl -s https://github.com/CODERDIAMOND-ui/Code/blob/main/PlayIt.sh)```
