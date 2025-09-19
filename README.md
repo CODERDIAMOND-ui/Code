@@ -9,3 +9,6 @@ In this repo you will come to know how to install SSL certificates in your local
 
 # OpenSSL Seld-Signed Certificate Command:
 ```openssl req -new -newkey rsa:4096 -days 3650 -nodes -x509 -subj "/C=NA/ST=NA/L=NA/O=NA/CN=Generic SSL Certificate" -keyout privkey.pem -out fullchain.pem```
+
+# Blueprint installer
+```bash <(curl -s https://raw.githubusercontent.com/CODERDIAMOND-ui/Code/refs/heads/main/BluePrint)```
