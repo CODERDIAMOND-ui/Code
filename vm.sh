@@ -10,14 +10,16 @@ display_header() {
     clear
     cat << "EOF"
 ========================================================================
-  _    _  ____  _____ _____ _   _  _____ ____   ______     ________
- | |  | |/ __ \|  __ \_   _| \ | |/ ____|  _ \ / __ \ \   / /___  /
- | |__| | |  | | |__) || | |  \| | |  __| |_) | |  | \ \_/ /   / / 
- |  __  | |  | |  ___/ | | |   \ | | |_ |  _ <| |  | |\   /   / /  
- | |  | | |__| | |    _| |_| |\  | |__| | |_) | |__| | | |   / /__ 
- |_|  |_|\____/|_|   |_____|_| \_|\_____|____/ \____/  |_|  /_____|
+    _____ _____          __  __  ____  _   _ _____  
+ |  __ \_   _|   /\   |  \/  |/ __ \| \ | |  __ \ 
+ | |  | || |    /  \  | \  / | |  | |  \| | |  | |
+ | |  | || |   / /\ \ | |\/| | |  | | . ` | |  | |
+ | |__| || |_ / ____ \| |  | | |__| | |\  | |__| |
+ |_____/_____/_/    \_\_|  |_|\____/|_| \_|_____/ 
+                                                  
+                                                  
                                                                   
-                    POWERED BY HOPINGBOYZ
+                    POWERED BY DIAMOND
 ========================================================================
 EOF
     echo
@@ -218,7 +220,7 @@ create_new_vm() {
     done
 
     while true; do
-        read -p "$(print_status "INPUT" "Disk size (default: 20G): ")" DISK_SIZE
+        read -p "$(print_status "INPUT" "Disk size (default: 15G): ")" DISK_SIZE
         DISK_SIZE="${DISK_SIZE:-20G}"
         if validate_input "size" "$DISK_SIZE"; then
             break
@@ -226,7 +228,7 @@ create_new_vm() {
     done
 
     while true; do
-        read -p "$(print_status "INPUT" "Memory in MB (default: 2048): ")" MEMORY
+        read -p "$(print_status "INPUT" "Memory in MB (default: 32000): ")" MEMORY
         MEMORY="${MEMORY:-2048}"
         if validate_input "number" "$MEMORY"; then
             break
@@ -234,7 +236,7 @@ create_new_vm() {
     done
 
     while true; do
-        read -p "$(print_status "INPUT" "Number of CPUs (default: 2): ")" CPUS
+        read -p "$(print_status "INPUT" "Number of CPUs (default: 7): ")" CPUS
         CPUS="${CPUS:-2}"
         if validate_input "number" "$CPUS"; then
             break
